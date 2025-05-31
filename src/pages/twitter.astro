@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout';
+---
+
+<Layout>
+  <div class="min-h-screen bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 flex flex-col items-center justify-start py-12 px-4">
+    <nav class="flex gap-6 mb-10 bg-white/80 rounded-xl shadow-lg px-8 py-4 backdrop-blur border border-white/60">
+      <a href={`/`} class="text-blue-600 font-semibold hover:underline transition-colors">Home</a>
+      <a href={`/about`} class="text-blue-600 font-semibold hover:underline transition-colors">About</a>
+      <a href={`/twitter`} class="text-blue-600 font-semibold hover:underline transition-colors">Twitter</a>
+    </nav>
+    <div class="w-full max-w-2xl bg-white/90 rounded-2xl shadow-xl p-8 flex flex-col items-center">
+      <h1 class="text-3xl font-extrabold mb-4 text-purple-700 drop-shadow">Twitter</h1>
+      <p class="text-lg text-gray-700 text-center">Twitter</p>
+    </div>
+  </div>
+</Layout>
